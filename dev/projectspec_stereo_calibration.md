@@ -319,18 +319,3 @@ The following papers provide a starting point for the project rather than an exh
 
 - X. Shao and X. He, *Camera motion-induced systematic errors in stereo-DIC and speckle-based compensation method*, Optics and Lasers in Engineering, 149, 106809, 2022. DOI: 10.1016/j.optlaseng.2021.106809.
 
----
-
-## Expected Outcome
-
-The primary outcome of the project should be a validated stereo camera calibration library integrated into PyVale. The final software should provide:
-
-```text
-Calibration observations
-          ↓
-Stereo calibration
-          ↓
-Calibrated camera models
-```
-
-with a high-performance C implementation beneath a simple Python interface. The project should establish progressively more capable calibration methods, beginning with a conventional stereo calibration baseline and advancing towards dense, model-free or ray-based approaches where these provide measurable improvements. The ultimate success criterion is the ability to **reduce calibration induced systematic error in stereo DIC displacement and strain measurements while providing a robust and maintainable software capability for PyVale**.
