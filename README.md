@@ -1,2 +1,2 @@
-# stereo-rc
+# stereorc
 Stereo robust calibration
